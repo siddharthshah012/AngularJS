@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="siddWebsite">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <!-- SCROLLS -->
+    <!-- load bootstrap and fontawesome via CDN -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+
+
+
+    <!-- SPELLS -->
+    <!-- load angular and angular route via CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+    <script src="script.js"></script>
+
+
+
+</head>
+<!-- define angular controller -->
+<body ng-controller="mainController">
+
+    <!-- HEADER AND NAVBAR -->
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="/">Siddharth's Website</a>
+                </div>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+                    <li><a href="#about"><i class="fa fa-shield"></i> About</a></li>
+                    <li><a href="#projects"><i class="fa fa-shield"></i> Projects</a></li>
+                    <li><a href="#contact"><i class="fa fa-comment"></i> Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- MAIN CONTENT AND INJECTED VIEWS -->
+    <div id="main">
+
+        <section class="rw-wrapper ">
+            <h2 class="rw-sentence">
+                <div class="rw-words rw-words-1 jumbotron text-center ">
+                    <span>Engineer.</span>
+                    <span>Developer...</span>
+                    <span>Innovator....</span>
+                </div>
+            </h2>
+        </section>
+
+
+        <!-- angular templating -->
+        <!-- this is where content will be injected -->
+        <div ng-view></div>
+    </div>
+
+<!-- Footer -->
+    <footer class="bottom" >
+
+    </footer>
+
+
+
+</body>
+</html>
