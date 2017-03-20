@@ -1,0 +1,15 @@
+apiKey: "AIzaSyBlhw-CtvQTWKWxUXPDeUyVRD9HvsCK1x4",
+    authDomain: "chatapp-57ccf.firebaseapp.com",
+    databaseURL: "https://chatapp-57ccf.firebaseio.com",
+    storageBucket: "chatapp-57ccf.appspot.com",
+    messagingSenderId: "676543682029"
+
+
+
+{
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null"
+  }
+}
+]hgsvcjhvnbhj bnvyug   yufghna x gh hyf dghiu 
